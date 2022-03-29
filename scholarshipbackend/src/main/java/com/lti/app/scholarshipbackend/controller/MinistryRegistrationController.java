@@ -26,8 +26,11 @@ public class MinistryRegistrationController{
 	
 	@PostMapping("/MinistryRegistration")
 	public int addMinistryRegistration(@RequestBody MinistryRegistration e) {
-	return minService.addMinistryRegistration(e); }
+	return minService.addMinistryRegistration(e); 
 
+	
+	}
+  
 	
 	
 
